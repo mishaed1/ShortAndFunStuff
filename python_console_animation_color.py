@@ -1,4 +1,5 @@
 # CONSOLE ANIMATION WITHOUT COLORS
+
 # from time import sleep
 # import os
 
