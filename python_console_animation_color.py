@@ -1,20 +1,21 @@
 # CONSOLE ANIMATION WITHOUT COLORS
 
-# from time import sleep
-# import os
+ from time import sleep
+ import os
 
 
-# icons_list = [".", "..", "...", "....", ".....", "......"]
+ icons_list = [".", "..", "...", "....", ".....", "......"]
 
-# for i in range(5):
-#     os.system('cls' if os.name == 'nt' else 'clear') # clears the console at start
-#     for j in icons_list:
-#         print(f"Searching {j}")
-#         sleep(0.5)
-#         os.system('cls' if os.name == 'nt' else 'clear') # clears the console after each iteration
+ for i in range(5):
+     os.system('cls' if os.name == 'nt' else 'clear') # clears the console at start
+     for j in icons_list:
+         print(f"Searching {j}")
+         sleep(0.5)
+         os.system('cls' if os.name == 'nt' else 'clear') # clears the console after each iteration
+
+
 
 # ANIMATION WITH COLORS
-
 from time import sleep
 import os
 
